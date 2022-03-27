@@ -28,7 +28,7 @@
     padding: 77px 55px 33px 55px;
     box-shadow: 0 5px 10px 0px rgba(0,0,0,0.3);
 }
-.login-form{
+.form-login{
     width: 100%;
 }
 .login-form-title{
@@ -171,6 +171,10 @@ width: 100%;
 }
 .login-form-btn:hover{
     cursor: pointer;
+    background:  linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -webkit-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -o-linear-gradient(to left, #62b5ec,#bb51e6) ;
+    background: -moz-linear-gradient(to left, #62b5ec,#bb51e6) ;
 }
 .text-center{
     display: flex;
