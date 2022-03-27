@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./styleRegister.css"
 import Logo from "../../img/lontraLogo2.png";
+import {Link} from "react-router-dom"
 
 const Page = () => {
     const [nome, setNome] = useState(" ");
@@ -46,7 +47,7 @@ const Page = () => {
                         
                         <div className="text-center-Register">
                             <span className="txt1-Register">Já tem uma conta  ?</span>
-                            <a className="txt2-Register" href="#">Faça login aqui </a>
+                            <li className="txt2-Register"><Link to="/login">Faça login aqui</Link></li>
                         </div>
 
                     </form>

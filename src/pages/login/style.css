@@ -182,11 +182,11 @@ width: 100%;
 .txt1{
     font-size: 14px;
     color: #194bd6;
-    line-height: 1.;
+    line-height: 6;
     text-decoration: none;
     font-family: 'Architects Daughter', cursive;
     font-family: 'Viga', sans-serif;
-    padding-right: 5px;
+    padding-right: 3px;
     background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
     -webkit-background-clip: text ;
     -webkit-text-fill-color: transparent;
@@ -194,7 +194,7 @@ width: 100%;
 .txt2{
     font-size: 14px;
     color: #194bd6;
-    line-height: 1.5;
+    line-height: 1.2;
     text-decoration: none;
     font-family: 'Architects Daughter', cursive;
     font-family: 'Viga', sans-serif;

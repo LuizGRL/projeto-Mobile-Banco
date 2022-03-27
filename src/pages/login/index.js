@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./style.css"
 import logo1 from "../../img/lontraLogo2.png"
+import {Link} from "react-router-dom"
 
 const Page = () => {
   const [email, setEmail] = useState("") /* faz com quem o emal e senha sumam caso tenha voalor inserido */
@@ -34,7 +35,7 @@ const Page = () => {
 
             <div className="text-center">
               <span className="txt1">Usuário Novo  ?</span>
-              <a className="txt2" href="#">Crie sua conta aqui</a>
+              <li className="txt2"><Link to="/register">Crie sua conta aqui </Link></li>
             </div>
 
 
