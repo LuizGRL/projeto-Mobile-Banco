@@ -176,6 +176,13 @@ width: 100%;
     background: -o-linear-gradient(to left, #62b5ec,#bb51e6) ;
     background: -moz-linear-gradient(to left, #62b5ec,#bb51e6) ;
 }
+.linkButt{
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+
+}
 .text-center{
     display: flex;
     justify-content: center;

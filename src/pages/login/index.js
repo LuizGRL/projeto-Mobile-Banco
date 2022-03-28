@@ -30,14 +30,13 @@ const Page = () => {
             </div>
 
             <div className="container-form-login-0-btn">
-              <button className="login-form-btn">Login</button>
+              <button className="login-form-btn"><Link to="/home" className="linkButt">Login</Link></button>
             </div>
 
             <div className="text-center">
               <span className="txt1">Usuário Novo  ?</span>
               <li className="txt2"><Link to="/register">Crie sua conta aqui </Link></li>
             </div>
-
 
           </form>
         </div>
