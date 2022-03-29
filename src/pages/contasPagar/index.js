@@ -11,7 +11,7 @@ const App = () =>{
                 <div className="wrap-ContasPagar">
                     <span className="contasPagar-title">
                         <img src={Logo1} className="logo-ContasPagar"/>
-                        Contas a Pagar
+                        Pagar
                     </span>
                     <div className="wrap-input-ContasPagar">
                         <input className={valor !== "" ? "has-val input-ContasPagar" : "input-ContasPagar"} type="valor" value={valor} onChange={e => setValor(e.target.value)} />
