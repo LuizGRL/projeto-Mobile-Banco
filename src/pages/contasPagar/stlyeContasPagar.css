@@ -3,6 +3,80 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.saldo{
+    color: #194bd6;
+    background-color: rgb(21, 26, 32);
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    margin-right: 100px;
+    align-items: center;
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: -500px;
+
+}
+.valor-Saldo-Div{
+    background: -webkit-linear-gradient(180deg,#b019d6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-size: 30px;
+
+}
+.saldo-titulo{
+    color: aliceblue;
+    align-items: center;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+
+}
+.extrato{
+    color: #194bd6;
+    background-color: rgb(21, 26, 32);
+    border-radius: 10px;
+    width: 300px;
+    height: fit-content;
+    margin-right:700px;
+    margin-top: -500px;
+    align-items: center;
+    display: block;
+    text-align: center;
+
+}
+.valor-extrato-div{
+    margin-top: 30px;
+    background: -webkit-linear-gradient(180deg,#b019d6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-size: 15px;
+
+}
+.extrato-titulo{
+    color: aliceblue;
+    align-items: center;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Viga', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(180deg,#194bd6,#653ada)  ;    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+
+}
+
 .container-ContasPagar{
     background-color: #010308;
     width: 100%;
@@ -12,7 +86,6 @@
     align-items: center;
     justify-content: center;
     padding: 15px;
-
 
 }
 .contasPagar-title{
@@ -132,6 +205,10 @@
 }
 .has-val +.focus-input-ContasPagar::before{
     width: 100%;
+}
+.input-valor-text{
+    top: -15px;
+
 }
 
 .focus-input-ContasPagarDesc{
