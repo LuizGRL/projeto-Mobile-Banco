@@ -151,6 +151,8 @@
     background: -moz-linear-gradient(to left,#194bd6,#7651db);   
     font-family: 'Architects Daughter', cursive;
     font-family: 'Viga', sans-serif;
+    margin-left: 120px;
+    text-decoration: none;
 }
 .register-form-btn-Register:hover{
     cursor: pointer;

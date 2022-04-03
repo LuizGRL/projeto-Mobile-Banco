@@ -42,7 +42,8 @@ const Page = () => {
                             <span className="focus-input-Register" data-placeholder="Confirmar Senha"></span>
                         </div>
                         <div className="container-register-button">
-                            <button className="register-form-btn-Register">Registrar</button>
+                            <Link to="/login"><button className="register-form-btn-Register">Registrar</button></Link>
+
                         </div>
                         
                         <div className="text-center-Register">
